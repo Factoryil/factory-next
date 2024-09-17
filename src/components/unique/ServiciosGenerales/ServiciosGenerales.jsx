@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from './ServiciosGenerales.module.css';
 
 
@@ -12,7 +13,7 @@ const ServiciosGenerales = ({datos}) => {
       <div className={styles.contenedorServicios}>
         {servicios.map((servicio) => (
           <div key={servicio.id} className={styles.servicioItem}>
-            <a href="#" className={styles.servicioLink}>
+            <Link href={servicio.link} className={styles.servicioLink}>
               <Image
                 src={servicio.imgSrc}
                 alt={servicio.title}
@@ -20,7 +21,7 @@ const ServiciosGenerales = ({datos}) => {
                 height={80}
               />
               <span>{servicio.title}</span>
-            </a>
+            </Link>
           </div>
         ))}
       </div>

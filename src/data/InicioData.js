@@ -19,14 +19,17 @@
     servicios: {
       titulo: "nuestros servicios",
       servicios: [
-        { id: 1, title: 'ejemplo 1', imgSrc: '/img/servicios/icono-servicio-1.png' },
-        { id: 2, title: 'ejemplo 2', imgSrc: '/img/servicios/icono-servicio-2.png' },
-        { id: 3, title: 'ejemplo 3', imgSrc: '/img/servicios/icono-servicio-3.png' },
-        { id: 4, title: 'ejemplo 4', imgSrc: '/img/servicios/icono-servicio-4.png' },
-        { id: 5, title: 'ejemplo 5', imgSrc: '/img/servicios/icono-servicio-1.png' },
-        { id: 6, title: 'ejemplo 6', imgSrc: '/img/servicios/icono-servicio-1.png' },
-        { id: 7, title: 'ejemplo 7', imgSrc: '/img/servicios/icono-servicio-1.png' },
-        { id: 8, title: 'ejemplo 8', imgSrc: '/img/servicios/icono-servicio-1.png' },
+        { id: 1, title: 'logistica', imgSrc: '/img/servicios/inventory_2216463.png', link: '/logistica'},
+        { id: 3, title: 'ingeneria civil', imgSrc: '/img/servicios/project-management_2308201.png' , link: '/ingenerias/civil'},
+        { id: 4, title: 'ingeneria electronica', imgSrc: '/img/servicios/energy-system_12539733.png', link: '/ingenerias/electronica' },
+        { id: 5, title: 'ingeneria electrica', imgSrc: '/img/servicios/setting_10370130.png' , link: '/ingenerias/electrica'},
+        { id: 6, title: 'ingeneria de sistema', imgSrc: '/img/servicios/system-configuration_11778376.png' , link: '/ingenerias/sistema'},
+        { id: 7, title: 'ingeneria ambiental', imgSrc: '/img/servicios/environment_708499.png' , link: '/ingenerias/ambiental'},
+        { id: 8, title: 'ingeneria mecanica', imgSrc: '/img/servicios/repair_3627906.png' , link: '/ingenerias/mecanica'},
+        { id: 9, title: 'ingeneria industrial', imgSrc: '/img/servicios/engineering_2861721.png' , link: '/ingenerias/industrial'},
+        { id: 10, title: 'transporte carga', imgSrc: '/img/servicios/delivery-truck_516419.png' , link: '/transportes/carga'},
+        { id: 11, title: 'transporte especial', imgSrc: '/img/servicios/favourite_2156164.png' , link: '/transportes/especial'},
+        { id: 12, title: 'transporte hidrocarburos', imgSrc: '/img/servicios/tank-truck_1850928.png' , link: '/transportes/hidrocarburos'},
       ]
     }
   };
