@@ -1,18 +1,20 @@
 import Portafolio from "@/components/unique/Portafolio/Portafolio";
-import SectionV1 from "@/components/unique/SectionV1/SectionV1";
 import SectionV3 from "@/components/unique/SectionV3/SectionV3";
+import SectionV5 from "@/components/unique/SectionV5/SectionV5";
 import IngeneriasCivilData from "@/data/IngeneriasCivilData";
 import LayoutWrapper from "@/layout/LayoutWrapper";
 
 
-export default function Certificados() {
+export default function Civil() {
   return (
     <LayoutWrapper layout="cliente">
-      <SectionV1
-        titulo={IngeneriasCivilData.acercaDeNosotros.titulo}
-        subtitulo={IngeneriasCivilData.acercaDeNosotros.subtitulo}
-        contenido={IngeneriasCivilData.acercaDeNosotros.contenido}
-      />
+
+
+    <SectionV5
+        titulo={IngeneriasCivilData.introduccion.titulo}
+        contenido={IngeneriasCivilData.introduccion.contenido}
+      /> 
+
 
       <SectionV3 
         title={IngeneriasCivilData.sectionV3.title} 

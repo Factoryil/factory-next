@@ -1,8 +1,8 @@
 import Portafolio from "@/components/unique/Portafolio/Portafolio";
 import SectionV1 from "@/components/unique/SectionV1/SectionV1";
 import ServiciosGenerales from "@/components/unique/ServiciosGenerales/ServiciosGenerales";
-import IngeneriasData from "@/data/IngeneriasData";
 import LayoutWrapper from "@/layout/LayoutWrapper";
+import IngeneriasData from "@/data/IngeneriasData";
 
 
 export default function Certificados() {

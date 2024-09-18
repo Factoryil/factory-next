@@ -1,47 +1,34 @@
-const IngeneriasCivilData = {
-  acercaDeNosotros: {
-    titulo: "Acerca de nosotros",
-    subtitulo: "Ingeniería y Soluciones Tecnológicas",
-    contenido: "La ingeniería es la clave para transformar ideas en soluciones reales y efectivas. En nuestra compañía, abarcamos múltiples disciplinas de la ingeniería, combinando innovación y tecnología de vanguardia para optimizar procesos y automatizar operaciones. Nos especializamos en sectores como la construcción, la logística, el transporte, y la manufactura, desarrollando soluciones técnicas que garantizan sostenibilidad y eficiencia. Nuestro enfoque está siempre orientado a superar los desafíos actuales y futuros del mercado global, proporcionando soluciones precisas y adaptadas a cada necesidad."
-  },
-  servicios: {
-    titulo: "Nuestros servicios de ingeniería",
-    servicios: [
-      { id: 3, title: 'Ingeniería Civil', imgSrc: '/img/servicios/project-management_2308201.png', link: '/ingenerias/civil' },
-      { id: 4, title: 'Ingeniería Electrónica', imgSrc: '/img/servicios/energy-system_12539733.png', link: '/ingenerias/electronica' },
-      { id: 5, title: 'Ingeniería Eléctrica', imgSrc: '/img/servicios/setting_10370130.png', link: '/ingenerias/electrica' },
-      { id: 6, title: 'Ingeniería de Sistemas', imgSrc: '/img/servicios/system-configuration_11778376.png', link: '/ingenerias/sistema' },
-      { id: 7, title: 'Ingeniería Ambiental', imgSrc: '/img/servicios/environment_708499.png', link: '/ingenerias/ambiental' },
-      { id: 8, title: 'Ingeniería Mecánica', imgSrc: '/img/servicios/repair_3627906.png', link: '/ingenerias/mecanica' },
-      { id: 9, title: 'Ingeniería Industrial', imgSrc: '/img/servicios/engineering_2861721.png', link: '/ingenerias/industrial' },
-    ]
+const IngenieriaCivilData = {
+  introduccion: {
+    titulo: "Ingeniería Civil en FACTORY IL",
+    contenido: "En FACTORY INTEGRATED LOGISTICS SAS, somos un grupo especializado en Ingeniería Civil y Arquitectura, con certificaciones en Normas ISO 9001, 14001, 45001 y NORSOK. Estamos dedicados a la ejecución, diseño y mantenimiento de infraestructuras en Colombia. Nos especializamos en proyectos de construcción civil, urbanización y desarrollo vial, garantizando la máxima calidad, seguridad y sostenibilidad en cada obra. Nuestro equipo de expertos transforma ideas en realidades duraderas, asegurando excelencia en cada fase del proyecto."
   },
   sectionV3: {
-    title: "SERVICIOS DE INGENIERÍA CIVIL",
+    title: "Servicios de Ingeniería Civil",
     datos: [
       {
         title: "Diseño de Estructuras",
-        description: "Ofrecemos soluciones completas para el diseño de estructuras civiles, desde edificios hasta infraestructuras complejas.",
+        description: "Ofrecemos soluciones integrales para el diseño de estructuras civiles, abarcando desde edificios residenciales hasta infraestructuras complejas como puentes y presas. Nuestro enfoque asegura durabilidad y eficiencia en cada proyecto."
       },
       {
         title: "Gestión de Proyectos",
-        description: "Manejamos y coordinamos proyectos de ingeniería civil, asegurando la entrega a tiempo y dentro del presupuesto.",
+        description: "Nos encargamos de la gestión y coordinación de proyectos de ingeniería civil, garantizando que se completen a tiempo, dentro del presupuesto y con los más altos estándares de calidad."
       },
       {
         title: "Consultoría en Ingeniería Civil",
-        description: "Brindamos asesoramiento experto en todas las fases del proyecto, desde el diseño inicial hasta la ejecución final.",
+        description: "Proporcionamos asesoramiento especializado en todas las fases del proyecto, desde el concepto inicial hasta la ejecución y supervisión final, asegurando que cada aspecto del proyecto cumpla con las normativas y expectativas."
       },
       {
         title: "Inspección y Mantenimiento",
-        description: "Realizamos inspecciones y mantenimientos de estructuras existentes para garantizar su seguridad y funcionalidad.",
+        description: "Realizamos inspecciones exhaustivas y mantenimiento preventivo de estructuras existentes para garantizar su seguridad, funcionalidad y prolongar su vida útil."
       },
     ],
   },
   portafolio: {
-    title: "portafolio",
-    description: "este es nuestro portafolio de ingeneria civil",
+    title: "Portafolio",
+    description: "este es nuestro portafolio Ingeniería Civil",
     pdfUrl: '/pdf/portafolio-de-servicios-general.pdf'
   },
 };
 
-export default IngeneriasCivilData;
+export default IngenieriaCivilData;
