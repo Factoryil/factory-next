@@ -72,6 +72,7 @@
   
   .servicioLink:hover::after {
     box-shadow: 0 4px 0 #f49d15;
+    /* box-shadow: 0 4px 0 #00235a; */
   }
   
   .servicioLink img {
@@ -80,7 +81,7 @@
   }
   
   .servicioLink span {
-    margin-top: 15px;
+    margin-top: 20px;
     color: #00235a;
     font-size: 17px;
     text-align: center;
@@ -90,6 +91,7 @@
   
   .servicioLink:hover span {
     color: #f49d15;
+    /* color: #00235a; */
   }
   
   /* Responsivo */

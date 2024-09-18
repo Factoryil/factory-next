@@ -7,7 +7,13 @@ const Portafolio = ({ title, description, pdfUrl }) => {
   return (
     <div className={styles.fullWidthSection}>
       <div className={styles.image}>
-        <Image src={fondoPortafolio} alt="Portafolio" layout="fill" objectFit="cover" />
+        {/* Reemplazar layout y objectFit */}
+        <Image 
+          src={fondoPortafolio} 
+          alt="Portafolio" 
+          fill 
+          style={{ objectFit: 'cover' }} 
+        />
       </div>
       <div className={styles.content}>
         <h5>{title}</h5>

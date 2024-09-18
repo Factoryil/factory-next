@@ -7,11 +7,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   // Asegúrate de que la variable de entorno esté disponible en tu código
-  // const clerkFrontendApi = process.env.NEXT_PUBLIC_CLERK_FRONTEND_API;
-  // <ClerkProvider frontendApi={clerkFrontendApi}>
+  const clerkFrontendApi = process.env.NEXT_PUBLIC_CLERK_FRONTEND_API;
+  // <ClerkProvider > 
   
   return (
-     <ClerkProvider > 
+    <ClerkProvider frontendApi={clerkFrontendApi}>
       <html lang="es">
         <body>
           {children}

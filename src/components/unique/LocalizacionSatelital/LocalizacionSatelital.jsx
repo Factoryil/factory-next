@@ -4,17 +4,14 @@ import fondoImg from '@/assets/images/fondos/b3.png';
 import locationMap from '@/assets/images/icon/gps-location-map.png';
 import locationMapNavigation from '@/assets/images/icon/gps-location-map-navigation.png';
 
-
-
-
 const LocalizacionSatelital = () => {
   return (
     <div className={styles.contenedorLocalizacionSatelital}>
       <Image
         src={fondoImg}
         alt="Background"
-        layout="fill"
-        objectFit="cover"
+        fill
+        style={{ objectFit: 'cover' }}  // Reemplazo de objectFit
         className={styles.bgImage}
       />
       <div className={styles.contenidoLocalizacionSatelital}>
