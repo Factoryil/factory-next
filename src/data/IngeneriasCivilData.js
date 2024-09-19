@@ -1,7 +1,7 @@
 const IngenieriaCivilData = {
   introduccion: {
     titulo: "Ingeniería Civil en FACTORY IL",
-    contenido: "En FACTORY INTEGRATED LOGISTICS SAS, somos un grupo especializado en Ingeniería Civil y Arquitectura, con certificaciones en Normas ISO 9001, 14001, 45001 y NORSOK. Estamos dedicados a la ejecución, diseño y mantenimiento de infraestructuras en Colombia. Nos especializamos en proyectos de construcción civil, urbanización y desarrollo vial, garantizando la máxima calidad, seguridad y sostenibilidad en cada obra. Nuestro equipo de expertos transforma ideas en realidades duraderas, asegurando excelencia en cada fase del proyecto."
+    contenido: "Somos una empresa Integral de Ingeniería con presencia Nacional, dedicada a prestar servicios de Construcción, Consultoría (Diseños), Interventoría, Suministros y demás servicios de ingeniería; manteniendo altos estandares de calidad,excelencia, capital humano, que permita generar un valor mayor en las soluciones que ofrecemos a nuestros clientes de los sectores Privados, Públicos, Hidrocarburos/Gas, Mina y Energía; convirtiendonos en aliados estratégicos para el desarrollo de los proyectos y necesidades de nuestros clientes, enmarcados en los principios de calidad, protección al medio ambiente, salud ocupacional, seguridad industrial y responsabilidad social.Certifcada el Sistema de Gestión de la Seguridad y la Salud en el Trabajo."
   },
   sectionV3: {
     title: "Servicios de Ingeniería Civil",
