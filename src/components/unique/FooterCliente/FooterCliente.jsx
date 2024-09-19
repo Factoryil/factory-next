@@ -40,10 +40,9 @@ const FooterCliente = () => (
           <h2 className={styles.footerSectionTitle}>Servicios</h2>
           <div className={styles.footerSectionContent}>
             <ul className={styles.footerLinks}>
-              <li><a href="#">Carga liviana</a></li>
-              <li><a href="#">Transporte de pasajeros</a></li>
-              <li><a href="#">Servicios eléctricos</a></li>
-              <li><a href="#">Ingeniería Civil</a></li>
+              <li><a href="/ingenerias">ingenerias</a></li>
+              <li><a href="/logistica">logistica</a></li>
+              <li><a href="/transportes">transportes</a></li>
             </ul>
           </div>
         </div>

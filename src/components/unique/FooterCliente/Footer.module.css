@@ -60,6 +60,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 29px;
+    text-transform: capitalize;
   }
   
   .footerLinks a:hover {

@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   // <ClerkProvider frontendApi={clerkFrontendApi}>
   
   return (
-  <ClerkProvider > 
+    <ClerkProvider > 
     <html lang="es">
         <body>
           {children}
